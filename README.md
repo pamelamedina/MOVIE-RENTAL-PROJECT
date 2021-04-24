@@ -12,4 +12,4 @@ cart button in the nav that keeps track of the number of movies rented. click on
 see your movies listed in the cart. There is a button that can remove the movie from the cart.
 In the cart there is a return to movie list button to go back and rent more movies.
 You will need to create a mongoDB collection for the movie database and update the keys.js file 
-
+I've included movie poster images that are sufficiently small in client/public/images.
