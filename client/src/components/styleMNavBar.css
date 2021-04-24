@@ -1,0 +1,9 @@
+.cart-button {
+   background-color: rgb(63, 59, 59);
+   color: red;
+   font-size:15px;
+   font-weight: bold;
+   border-style: solid; 
+   border-radius:0px;
+   border-color:slategrey;
+}

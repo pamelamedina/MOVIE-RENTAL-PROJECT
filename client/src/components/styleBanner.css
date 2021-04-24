@@ -1,0 +1,152 @@
+
+
+body{background-color: rgb(191, 116, 237, .35); 
+}
+
+
+h1{
+  text-shadow: 3px 4px 4px purple, 0 0 25px blue, 0 0 30px darkblue;
+  margin: 0px 0px 0px 2px;
+  text-align: center;
+  font-size: 60px;
+ }
+
+button {
+    width: auto;
+    height:auto;
+    font-size: 30px;
+    color: purple;
+    border-radius: 20px;   
+    background-color: rgb(191, 116, 237, .5)
+}
+
+
+img {
+    height: 260px;
+    width: 200px;
+    border-width: 13px;
+    border-color: purple;
+    border-radius: 30px;
+    margin:45px 0px 0px 45px;
+}
+
+img:hover {
+    height: 350px;
+    width: 300px;
+    margin:0px;
+}
+
+.moviediv{
+     width: 300px;
+     height:350px;
+     /*border-color: black;
+     border-width: 35px; */
+     border-radius: 30px;
+     background-color: rgb(103, 40, 143,.35);
+     margin: 0px 0px 0px 2px;
+ }
+
+
+#marquee{    
+    margin: 0px 0px 0px 2px;
+ border-radius: 50px;
+ height: 150px;
+ text-align: center;
+ font-family: 'Monoton', sans-serif;
+ font-size:160px;
+ background-color: rgb(103, 20, 143,.50);
+ padding:5px;
+
+/*border-width: 25px;
+border-color: purple;
+border-width: 5px;
+text-align : center; */
+/*font-family:  'Monoton' 'Montserrat', sans-serif; */
+}
+
+.marqueeanim {
+    animation-name: marquee-anim;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    /* linear, ease-in, ease-out, ease-in-out */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    /* normal reverse  alternate  alternate-reverse  */
+    /* animation: red-to-black 4s linear 0 2 alternate-reverse;*/
+}
+
+@keyframes marquee-anim {  
+    0% {  color: rgb(66, 52, 145);  text-shadow: 3px 4px 4px pink, 0  0  30  25px violet, 0 0 30px red ; }
+    50% {   color: blue; text-shadow: 3px 4px 4px violet, 0 0 25px blue, 0 0 30px red ; } 
+    75%{ color: lavender; text-shadow: 3px 4px 4px purple, 0 0 35px red, 0 0 30px blue ;}  
+    100%{ color: pink; text-shadow: 3px 4px 4px yellow, 0 0 35px red, 0 0 30px blue ;}
+}
+
+#movieanim {
+    animation-name: movie-anim;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    /* linear, ease-in, ease-out, ease-in-out */
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    /* normal reverse  alternate  alternate-reverse  */
+    /* animation: red-to-black 4s linear 0 2 alternate-reverse;*/
+}
+
+
+@keyframes movie-anim {  
+    0% {background: blue;     transform: scale(.5,.5 );}
+    50% {background: lavender; transform: scale(.75,.75);}
+    75% {background: blue; transform: scaleX(.85);}
+    85% {background:purple; transform: scale(.95,.95);}
+    100%{background: purple; transform: scaleX(1.3);}
+}
+
+#myanim {
+	animation-name: awsome-anim;
+	animation-duration: 4s;
+    animation-timing-function:linear;
+    /* linear, ease-in, ease-out, ease-in-out */
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    /* normal reverse  alternate  alternate-reverse  */
+    /* animation: red-to-black 4s linear 0 2 alternate-reverse;*/
+}
+
+@keyframes  awsome-anim {  
+
+	0% {background: blue;     transform: scale(.5,.5 );}
+	50% {background: lavender; transform: scale(.75,.75);}
+    75% {background: blue; transform: scaleX(.85);}
+    85% {background:purple; transform: scale(.95,.95);}
+	100%{background: purple; transform: scaleX(1.3);}
+	}
+
+#myanimdiv {
+    animation-name: awsome-anim-div;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    /* linear, ease-in, ease-out, ease-in-out */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    /* normal reverse  alternate  alternate-reverse  */
+    /* animation: red-to-black 4s linear 0 2 alternate-reverse;*/
+}
+
+    @keyframes  awsome-anim-div {  
+    0% {background: blue; color: pink;    }
+    50% {background: lavender; color:purple; }
+    75% {background: blue; color: white; }
+    85% {background:purple; color: white; }
+    100%{background: purple; }
+    }
+    /*
+    0% {background: blue;     transform: translate(0px,   0px);}
+    50% {background: lavender; transform: translate(10px, 10px);}
+    100%{background: purple; transform: translate(20px, 20px);}
+    }
+    */

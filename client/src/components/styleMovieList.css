@@ -1,0 +1,106 @@
+
+body{background-color: rgb(191, 116, 237, .40); 
+}
+
+Button {
+    width: auto;
+    height:auto;
+    font-size: 30px;
+    color: purple;
+    border-radius: 20px;   
+    background-color: rgb(191, 116, 237, .5)
+}
+
+.movieList {
+  display:' ';
+}
+
+.cardimg {    
+    width: 200px;
+    height: 260px;       
+    border-radius: 30px;
+    margin:0px 0px 0px 0px;
+    border: solid rgb(63, 17, 77) 10px;
+}
+
+.cardimg:hover {
+    width: 230px;
+    height: 290px;    
+   border: solid rgb(63, 17, 77) 20px;
+}
+
+.moviecard {
+    margin: 0px 0px 14px 0px;
+     width: 950px;
+     height:450px;
+     /*border-color: black;
+     border-width: 35px; */
+     border-radius: 30px;
+     background-color: rgb(103, 40, 143,.35);
+ }
+
+ .cardtext{
+   font-size: 10px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ .cardheader {
+    font-size: 30px;   
+ }
+
+ .deletebutton {    
+        margin: 0px 15px 0px 0px;
+        text-align: center;
+        width: auto;
+        height: auto;        
+        color: rgb(56, 35, 56);
+        font-size: auto;
+        border-radius: 10px;   
+        border: solid rgba(135, 60, 182, 0.1) 1px;
+        background-color: rgba(105, 39, 146, 0.5);      
+ }
+
+ .deletebutton:hover {      
+    border: solid rgba(191,116,237, .10 ) 1px;
+    background-color: rgba(105, 39, 146, 0.8);    
+    color: rgb(71, 20, 71);  
+ }  
+ 
+ .rating{     
+     float: right;
+     margin: 0px 20px 0px 0px;
+     font-size: 20px;   
+ }
+    
+ .genre{   
+    float: right;
+    margin: 0px 10px 0px 0px;
+    font-size: 20px;   
+}
+
+.rentthis {  
+    float: right;
+    margin: 0px 0px 0px 175px;
+    text-align: center;
+    width: auto;
+    height: auto;      
+    color: rgb(235, 229, 229);
+    font-size: small;
+    border-radius: 10px;   
+    border: solid rgba(135, 60, 182, 0.1) 1px;
+    background-color: rgba(245, 22, 22, 0.7);
+}
+
+.rentthis:hover {
+    float: right;  
+    text-align: center;
+    width: auto;
+    height: auto;      
+    color: rgb(235, 229, 229);
+    font-size: small;
+    border-radius: 10px;   
+    border: solid rgba(135, 60, 182, 0.1) 1px;
+    background-color: rgb(8, 184, 228);   
+}
+
+
